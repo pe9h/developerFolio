@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -20,9 +20,9 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Avery",
-  title: "Hello, my name is Avery!",
-  subTitle: "I have a full-time Luau programmer! I am currently improving my skills every day and also learning GDScript. I am also very easy to get working on other engines, I pick up fast!",
+  username: "pe9h",
+  title: "Hello! My name is Avery!",
+  subTitle: "I am a full-time Luau programmer! I am currently improving my skills every day and also learning GDScript. I am also very easy to get working on other engines, I pick up fast!",
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -43,23 +43,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full time Luau Programmer",
+  subTitle: "Full time Luau Programmer!",
   skills: [
-    "Develop anything you need!",
-    "Work fast, and many hours a day!",
+    "Develop anything you need.",
+    "I work fast.",
+    "I work many hours a day.",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "luau",
-      fontAwesomeClassname: "cib-lua"
-    },
-    {
-      skillName: "GDScript",
-    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -150,7 +145,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -222,7 +217,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -277,7 +272,7 @@ const contactInfo = {
   subtitle:
     "Want to hire me? Want to discuss a possible project? Email me, or add me on Discord.",
   email_address: "originalavery05@gmail.com",
-  discord: "pe9h"
+  discord: "https://discord.gg/dem4h76Gw3"
 };
 
 // Twitter Section

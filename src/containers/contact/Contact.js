@@ -49,6 +49,16 @@ export default function Contact() {
               </a>
               <br />
               <br />
+
+              <a
+                className="contact-detail-discord"
+                href={contactInfo.discord}
+              >
+                {contactInfo.discord}
+              </a>
+
+              <br />
+              <br />
               <SocialMedia />
             </div>
           </div>
